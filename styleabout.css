@@ -1,0 +1,130 @@
+*,
+html {
+    padding : 0;
+    margin : 0; 
+}
+
+body {
+    background-color: rgb(201, 92, 19);
+}
+
+.container-navbar {
+    background-color: rgba(181, 87, 24, 0.979);
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 65px;
+    justify-content:center;
+    align-items: center;
+}
+
+.li-navbar {
+    background-color: rgba(181, 87, 24, 0.979);
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 19px;
+}
+
+.li-navbar :hover {
+    background-color: rgb(228, 112, 44);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight:500px
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 70vh;
+}
+
+.a-content {
+    background-color: rgba(181, 87, 24, 0.979);
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    width: auto;
+    height: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 9px 11px 8px 1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 9px 11px 8px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 9px 11px 8px 1px rgba(0,0,0,0.5);
+}
+
+.b-content {
+    background-color: rgba(181, 87, 24, 0.979);
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    width: 395px;
+    height: 180px;
+    justify-content: center;    
+    box-shadow: 9px 11px 8px 1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 9px 11px 8px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 9px 11px 8px 1px rgba(0,0,0,0.5);
+
+}
+
+.nama {
+    margin-top: 20px;
+}
+
+.lahir {
+    margin-top: 10px;
+}
+
+.nim {
+    margin-top: 10px;
+}
+
+.prodi {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.img-content {
+    justify-content: right;
+    width:95%;
+    height: 90%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top:50;
+    margin-left: 20;
+    border-radius:50px;
+}
+
+
+.container-footer {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    background-color: rgba(181, 87, 24, 0.979);
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:50px;
+    font-style:oblique;
+}
